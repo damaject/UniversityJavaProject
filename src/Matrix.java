@@ -7,10 +7,6 @@ public class Matrix {
         arr = new int[n][m];
     }
 
-    public int[][] get() {
-        return arr;
-    }
-
     public void print() {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
@@ -18,5 +14,17 @@ public class Matrix {
             }
             System.out.println();
         }
+    }
+
+    public void set(int i, int j, int val) {
+        arr[i][j] = val;
+    }
+
+    public int get(int i, int j) {
+        return arr[i][j];
+    }
+
+    public int[][] getMatrix() {
+        return arr;
     }
 }
