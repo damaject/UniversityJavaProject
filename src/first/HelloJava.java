@@ -20,6 +20,7 @@ public class HelloJava {
         System.out.println("\nMatrix B + C");
         D.print();
 
+        A.print();
 
 
     }
