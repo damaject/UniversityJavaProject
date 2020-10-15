@@ -1,4 +1,4 @@
-package first;
+package com.university;
 
 public class Vector {
 
