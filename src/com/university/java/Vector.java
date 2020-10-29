@@ -1,4 +1,4 @@
-package com.university;
+package com.university.java;
 
 public class Vector {
 

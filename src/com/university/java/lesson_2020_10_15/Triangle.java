@@ -1,4 +1,4 @@
-package com.university.lesson_2020_10_15;
+package com.university.java.lesson_2020_10_15;
 
 public class Triangle extends Figure {
 
