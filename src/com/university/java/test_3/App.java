@@ -78,9 +78,7 @@ public class App {
     }
 
 
-    /**
-     * Статический рекурсивный метод для вывода чисел от i до n
-     */
+    /** Статический рекурсивный метод для вывода чисел от i до n */
     private static void outNumbers(int i, int n) {
         System.out.print(i + " ");
         if (i < n) outNumbers(i + 1, n);
