@@ -25,7 +25,7 @@ public class Main {
 
         System.out.println("\nГрищенкова А.А. Давыдов М.С. Тетенева О.А. ПИ19-1в\n");
 
-        BufferedReader br = new BufferedReader(new FileReader("D:\\Projects\\Java Projects\\University Java Project\\src\\com\\university\\java\\test_4\\java.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("...\\University Java Project\\src\\com\\university\\java\\test_4\\java.txt"));
         String line;
         StringBuilder builder = new StringBuilder();
         while ((line = br.readLine()) != null) builder.append(line);
